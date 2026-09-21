@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  warmup-stack:
+    build: ./pwn/warmup-stack
+    ports:
+      - "9001:9001"
+
+  fmtstr-auth:
+    build: ./pwn/fmtstr-auth
+    ports:
+      - "9002:9002"
+
+  close-primes:
+    build: ./crypto/close-primes
+    ports:
+      - "9101:9101"
+
+  ecb-oracle:
+    build: ./crypto/ecb-oracle
+    ports:
+      - "9102:9102"

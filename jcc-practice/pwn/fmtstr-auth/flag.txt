@@ -1,0 +1,1 @@
+flag{f0rmat_str1ng_wr1t3_pr1m1t1ve}
